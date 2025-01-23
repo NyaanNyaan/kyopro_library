@@ -10,8 +10,7 @@ Binary Indexed Tree(BIT)は区間和と一点加算が配列長を$n$として�
 
 - `DynamicBinaryIndexedTree<T>(int n)`: $[0, n]$を添え字の値として取れるBITを作成する。
 - `add(k, x)`: k番目の要素にxを加算する。
-- `operator[](k)`: k番目の要素を取得する。
 - `sum(k)`: 区間`[0, k)`の和を取得する。
 - `sum(l, r)`: 区間`[l, r)`の和を取得する。
-- `operator[](k)`: `k`番目の要素の値を取得する。
+- `operator[](k)`: k番目の要素の値を取得する。
 - `lower_bound(w)`: 要素が全て非負の時、`[0, k]`の区間和がw以上となるような最小のkを求める。
